@@ -1,0 +1,11 @@
+[package]
+name = "tip_jar"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "tip_jar"
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+anchor-lang = "0.30.1"

@@ -1,0 +1,4 @@
+[workspace]
+members = [
+  "anchor_project/tip_jar"
+]
