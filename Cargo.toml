@@ -2,3 +2,7 @@
 members = [
   "anchor_project/tip_jar"
 ]
+
+
+[profile.release]
+overflow-checks = true

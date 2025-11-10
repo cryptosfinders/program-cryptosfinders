@@ -1,0 +1,7 @@
+[workspace]
+members = [
+  "programs/tip_jar"
+]
+
+[profile.release]
+overflow-checks = true

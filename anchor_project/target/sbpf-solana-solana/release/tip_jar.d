@@ -1,0 +1,1 @@
+/root/school-of-solana-season-8-program-School-of-Solana-Program/anchor_project/target/sbpf-solana-solana/release/tip_jar.so: /root/school-of-solana-season-8-program-School-of-Solana-Program/anchor_project/programs/tip_jar/src/lib.rs

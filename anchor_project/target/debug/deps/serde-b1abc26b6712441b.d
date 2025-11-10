@@ -1,0 +1,14 @@
+/root/school-of-solana-season-8-program-School-of-Solana-Program/anchor_project/target/debug/deps/serde-b1abc26b6712441b.d: /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /root/school-of-solana-season-8-program-School-of-Solana-Program/anchor_project/target/debug/build/serde-b347a8690ef3c09a/out/private.rs
+
+/root/school-of-solana-season-8-program-School-of-Solana-Program/anchor_project/target/debug/deps/libserde-b1abc26b6712441b.rlib: /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /root/school-of-solana-season-8-program-School-of-Solana-Program/anchor_project/target/debug/build/serde-b347a8690ef3c09a/out/private.rs
+
+/root/school-of-solana-season-8-program-School-of-Solana-Program/anchor_project/target/debug/deps/libserde-b1abc26b6712441b.rmeta: /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /root/school-of-solana-season-8-program-School-of-Solana-Program/anchor_project/target/debug/build/serde-b347a8690ef3c09a/out/private.rs
+
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/root/school-of-solana-season-8-program-School-of-Solana-Program/anchor_project/target/debug/build/serde-b347a8690ef3c09a/out/private.rs:
+
+# env-dep:OUT_DIR=/root/school-of-solana-season-8-program-School-of-Solana-Program/anchor_project/target/debug/build/serde-b347a8690ef3c09a/out
