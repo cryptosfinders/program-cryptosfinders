@@ -89,7 +89,7 @@ function UI() {
 
   return (
     <div style={{ maxWidth: 720, margin: '40px auto', padding: 16 }}>
-      <h1>Tip Jar (Devnet)</h1>
+      <h1>Tip Jar</h1>
       <WalletMultiButton />
 
       <div style={{ marginTop: 24, display: 'grid', gap: 12 }}>
@@ -97,7 +97,7 @@ function UI() {
 
         <div>
           <h3>Tip a creator</h3>
-          <input placeholder="Creator pubkey" value={creator} onChange={e => setCreator(e.target.value)} style={{ width: '100%' }} />
+          <input placeholder="Wallet address" value={creator} onChange={e => setCreator(e.target.value)} style={{ width: '100%' }} />
           <input placeholder="Amount in SOL" value={amountSol} onChange={e => setAmountSol(e.target.value)} />
           <button onClick={handleTip} disabled={!wallet.connected}>Send Tip</button>
         </div>
