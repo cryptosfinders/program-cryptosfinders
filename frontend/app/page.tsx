@@ -11,7 +11,8 @@ import { PhantomWalletAdapter, SolflareWalletAdapter } from '@solana/wallet-adap
 import '@solana/wallet-adapter-react-ui/styles.css';
 import idl from "../idl/tip_jar.json";
 
-const PROGRAM_ID = new PublicKey(idl.address); 
+const PROGRAM_ID = new PublicKey(idl.address);
+
 const RPC = process.env.NEXT_PUBLIC_SOLANA_RPC || anchor.web3.clusterApiUrl('devnet');
 
 function UI() {
@@ -21,12 +22,22 @@ function UI() {
   const [status, setStatus] = useState<string>('');
 
   const connection = useMemo(() => new Connection(RPC, 'confirmed'), []);
-  const provider = useMemo(() => new anchor.AnchorProvider(connection, wallet as any, {}), [connection, wallet]);
+
+  const provider = useMemo(() => {
+  if (!wallet.publicKey) return null;
+  return new anchor.AnchorProvider(
+    connection,
+    wallet as unknown as anchor.Wallet,
+    anchor.AnchorProvider.defaultOptions()
+  );
+}, [connection, wallet]);
+
   const programId = PROGRAM_ID;
+
   const program = useMemo(() => {
-  if (!wallet.connected || !wallet.publicKey) return null;
-  return new anchor.Program(idl as anchor.Idl, PROGRAM_ID, provider);
-}, [provider, wallet.connected]);
+  if (!provider) return null;
+  return new anchor.Program(idl as anchor.Idl, provider);
+}, [provider]);
 
   const deriveVault = async (auth: PublicKey) => {
   return PublicKey.findProgramAddressSync(

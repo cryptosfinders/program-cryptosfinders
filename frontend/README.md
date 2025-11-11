@@ -15,7 +15,7 @@ This UI communicates directly with the deployed Solana program on **Devnet** usi
 
 ## Live App
 
-**Deployed URL:** _<Add your Vercel/Netlify link here>_
+**Deployed URL:** https://crypto-finders-projects.vercel.app
 
 ---
 
@@ -36,12 +36,13 @@ Create a `.env.local` file in the `/frontend` directory:
 
 ```env
 NEXT_PUBLIC_SOLANA_RPC=https://api.devnet.solana.com
-NEXT_PUBLIC_TIP_JAR_PROGRAM_ID=<YOUR_PROGRAM_ID>
+NEXT_PUBLIC_TIP_JAR_PROGRAM_ID=TipJar1111111111111111111111111111111111111
 
 Running the Frontend Locally
 
 Install dependencies
 pnpm install
+pnpm build
 
 Start the development server
 pnpm dev
