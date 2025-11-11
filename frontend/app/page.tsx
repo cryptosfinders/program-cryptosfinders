@@ -24,9 +24,9 @@ function UI() {
   const provider = useMemo(() => new anchor.AnchorProvider(connection, wallet as any, {}), [connection, wallet]);
   const programId = PROGRAM_ID;
   const program = useMemo(() => {
-  if (!wallet.publicKey) return null; 
+  if (!wallet.connected || !wallet.publicKey) return null;
   return new anchor.Program(idl as anchor.Idl, PROGRAM_ID, provider);
-}, [provider, wallet.publicKey]);
+}, [provider, wallet.connected]);
 
   const deriveVault = async (auth: PublicKey) => {
   return PublicKey.findProgramAddressSync(
